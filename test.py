@@ -69,3 +69,46 @@ a ,b, c = 5, 10, 15
 # import os
 
 # os.remove("demofile3.txt")
+
+# def function(a,b):
+#     result = a + b
+#     return result
+
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+
+# print(" The sum of the two degit ",function(num1,num2))
+
+# def function (marks) :
+
+#     total = sum(marks)
+#     print("Your total marks is: ", total)
+#     percentage = total / len(marks)
+#     return percentage
+
+# marks = []
+
+# for i in range (1,2) :
+#     mark = float(input(f"Enter marks for subject {i}: "))
+#     marks.append(mark)
+
+# print("Your percentage is: ", function(marks))
+
+# def calculate_simple_interest(principal, rate, time) :
+#     interest = (principal * rate * time) / 100
+#     return interest
+
+# p = float(input("Enter principal amount: "))
+# r = float(input("Enter rate of interest: "))
+# t = float(input("Enter time in years: "))
+
+# print("Simple Interest is: ", calculate_simple_interest(p, r, t))
+
+# def check_even_odd(number) :
+#     if number % 2 == 0 : 
+#         print(f"{number} is even number")
+#     else : 
+#         print(f"{number} is odd number")
+
+# num = int(input("Enter a number: "))
+# check_even_odd(num)
